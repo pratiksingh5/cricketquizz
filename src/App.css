@@ -1,0 +1,149 @@
+
+
+.App{
+  width: 100%;
+  height: 100vh;
+  background-color:black;
+  color:white;
+  font-family: 'Montserrat';
+  text-align: center;
+}
+.heading{
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%,0);
+  color:white;
+  font-size: 1.5rem;
+}
+.start{
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%,0);
+  color:white;
+  padding: 15px 30px;
+  background-color:#b33939;
+  border-radius:5px;
+  font-weight: 600;
+  cursor: pointer;
+}
+.start:hover{
+  background-color:#8a1e1e;
+
+}
+.Menu{
+  width: 80%;
+  height: 70vh;
+  background-color:#ced6e0;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius:10px;
+
+}
+.Quiz{
+  width: 80%;
+  height: 70vh;
+  background-color:#ced6e0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius:10px;
+ 
+}
+.Question{
+  background-color:#b33939;
+  padding: 25px;
+  font-weight: 500;
+}
+
+#nextQuestion{
+  /* padding: 15px 40px; */
+  width: 120px;
+  height: 50px;
+  background-color:#34ace0;
+  border: none;
+  border-radius: 5px;
+  color:white;
+  margin: 10px 20px;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.questions{
+  margin-top: 30px;
+  width: 100%;
+  height: 40vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content:space-between;
+  padding: 5px 40px;
+  align-items:center;
+}
+
+.questions button{
+  width: 45%;
+  height: 20%;
+  border-radius:5px;
+  border: none;
+  background-color:#ffffff;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.questions button:hover{
+  background-color:#43b4a5;
+cursor: pointer;
+
+
+}
+.questions button:focus{
+  background-color:#1e9672;
+}
+#nextQuestion:hover{
+background-color:rgb(18, 83, 158);
+cursor: pointer;
+}
+#table{
+  width: 80%;
+  height: 70vh;
+  background-color:#ced6e0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  border-radius:10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+ 
+}
+h2{
+  margin-top: 10px;
+}
+
+
+.answer{
+  width: 100%;
+  height: 24%;
+  background-color:#57606f;
+  padding: 20px 50px;
+
+}
+#restart{
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translate(-50%,0);
+  background-color:rgb(119, 27, 27);
+  color:white;
+  font-weight: 600;
+  border-radius:5px;
+  padding: 15px 30px;
+  border: none;
+  letter-spacing: 1px;
+}
